@@ -4,6 +4,7 @@ import Clientes from '../views/clientes/Clientes.vue'
 import Proveedores from '../views/proveedores/Proveedores.vue'
 import Productos from '../views/productos/Productos.vue'
 import Pedido from '../views/pedido/Pedido.vue'
+import AgregarCliente from '../views/clientes/AgregarCliente.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/pedido',
     name: 'Pedido',
     component: Pedido
+  },
+  {
+    path: '/agregar-cliente',
+    name: 'AgregarCliente',
+    component: AgregarCliente
   },
   {
     path: '/about',
